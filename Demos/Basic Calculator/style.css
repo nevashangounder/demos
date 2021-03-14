@@ -1,0 +1,63 @@
+
+
+:root{
+    --color1: #287094;
+    --color2: #d4d4ce;
+    --color3: #f6f6f6;
+    --color4: #023246;
+}
+
+
+
+body{
+   
+
+}
+
+.calculator{
+    
+    width: 70%;
+    margin: 10%;
+    
+    
+}
+
+input{
+    width: 100%;
+    height: auto;
+    padding: 2em 1em;
+}
+
+.screen{
+   
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(100px, 1fr));
+    background-color: black;
+    
+}
+
+.equal-btn{
+   grid-row: 4/6 ;
+   grid-column: 4/5;
+   background-color: var(--color1);
+    
+}
+
+.grey{
+    background-color: var(--color2);
+}
+
+.white{
+    background-color: var(--color3);
+}
+
+.grey:hover{
+    background-color: var(--color1);
+}
+
+.white:hover{
+    background-color: var(--color1);
+}
