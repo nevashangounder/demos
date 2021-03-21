@@ -1,0 +1,41 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+
+
+/* delcaring global scope variable */
+:root{
+    --bcgColor: #f3ff
+}
+
+
+body{
+    /* in order to align items to the center of the page and for the flex to work we need to define the height and width of the container */
+    height: 100vh; 
+    width: 100%;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bcgColor);
+}
+
+/* style the button */
+
+button{
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 0.3rem;
+    text-transform: capitalize;
+    outline: none;
+    background-color: rgba(10, 80, 150, 0.2)
+}
+
+button:hover{
+    background-color: rgba(10, 80, 200, 0.8);
+}
+
+
+
