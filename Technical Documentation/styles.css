@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+:root{
+    --mainSpacing: 0.1rem;
+    --mainWhite: rgb(246,246,246 );
+} 
+
+/*----navbar-------------*/
+
+*{
+    margin: 0;
+    top: 0;
+}
+
+#navbar{
+    width: 20%;
+    height: 100%;
+    float: left;
+    
+    
+}
+
+#navbar-title{
+    font-size: 1.5rem;
+    text-align: center;
+    margin: auto;
+    padding: 0.7rem;
+}
+
+#list-contents{
+    list-style: none;
+    padding-left: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    overflow: scroll;
+}
+
+.nav-link{
+    text-align: left;
+    padding: 2rem;
+    padding-top: 2rem;
+    text-decoration: none;
+    color: rgb(10,10,10 );
+}
+
+
+
+
+/*-----main------------*/
+#main-doc{
+    width: calc(100vw - 25%);
+   font-family: Lato, sans-serif;
+   overflow: scroll;
+   float: right;
+   padding-top: 2rem;
+}
+
+header{
+    font-size: 2rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.7rem;
+}
+
+code{
+    background-color: lightgrey;
+}
+
+@media (max-width: 100px){
+        #navbar{
+            width: 10%;
+            font-size: 0.5rem;
+        }
+}
